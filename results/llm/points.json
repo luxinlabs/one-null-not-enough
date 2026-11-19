@@ -1,0 +1,46 @@
+{
+ "gpt-5.4-mini-2026-03-17__loss50": {
+  "expected_points_50to1": 4.659315350693662,
+  "FR": 0.9383342032659756,
+  "CR": 1.0,
+  "abstain": 0.0035190565748944177,
+  "request": 0.09859467654831591
+ },
+ "gpt-5.4-mini-2026-03-17__baserate": {
+  "expected_points_50to1": 2.8048741922494043,
+  "FR": 0.3452389829244649,
+  "CR": 0.36781784774382764,
+  "abstain": 0.5906917439135824,
+  "request": 0.30018662758501535
+ },
+ "gpt-5.4-mini-2026-03-17__baserate_explain": {
+  "expected_points_50to1": 1.897226435557646,
+  "FR": 0.16598314816195658,
+  "CR": 0.1293991250849238,
+  "abstain": 0.8541716619051777,
+  "request": 0.1603801658430134
+ },
+ "gpt-5.4-mini-2026-03-17__structured": {
+  "expected_points_50to1": 1.576868460069514,
+  "FR": 0.18730892550891057,
+  "CR": 0.46447821513832954,
+  "abstain": 0.56238163337566,
+  "request": 0.09400485980596247
+ },
+ "single_plate": {
+  "expected_points_50to1": 4.945386830175465
+ },
+ "control_gated": {
+  "expected_points_50to1": 4.165692121635726
+ },
+ "confirm_or_reject": {
+  "expected_points_50to1": 4.247672443297336
+ },
+ "confirm_or_abstain": {
+  "expected_points_50to1": 1.5947977807017484
+ },
+ "always_abstain": {
+  "expected_points_50to1": 1.1
+ },
+ "n_common": 183
+}

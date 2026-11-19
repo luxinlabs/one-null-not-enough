@@ -1,0 +1,6 @@
+{
+ "tau": 0.3,
+ "tau_prime": 0.7,
+ "z_star": 0.452,
+ "fitted_on": "explore"
+}

@@ -1,0 +1,91 @@
+{
+ "n_campaigns": 30,
+ "mean_retest_overlap": 5.666666666666667,
+ "agent_retests_agent_decisions": {
+  "mean": 28.333333333333332,
+  "ci": [
+   23.6,
+   33.733333333333334
+  ]
+ },
+ "agent_retests_bayes_decisions": {
+  "mean": 17.866666666666667,
+  "ci": [
+   14.465,
+   21.6
+  ]
+ },
+ "voi_retests_agent_decisions": {
+  "mean": 26.266666666666666,
+  "ci": [
+   21.4,
+   31.668333333333326
+  ]
+ },
+ "voi_retests_bayes_decisions": {
+  "mean": 17.733333333333334,
+  "ci": [
+   14.266666666666667,
+   21.4
+  ]
+ },
+ "total_gap": {
+  "mean": 10.6,
+  "ci": [
+   7.466666666666667,
+   13.733333333333333
+  ]
+ },
+ "decision_effect_given_agent_retests": {
+  "mean": 10.466666666666667,
+  "ci": [
+   7.466666666666667,
+   13.733333333333333
+  ]
+ },
+ "decision_effect_given_voi_retests": {
+  "mean": 8.533333333333333,
+  "ci": [
+   5.2,
+   12.066666666666666
+  ]
+ },
+ "selection_effect_given_bayes_decisions": {
+  "mean": 0.13333333333333333,
+  "ci": [
+   0.0,
+   0.3333333333333333
+  ]
+ },
+ "selection_effect_given_agent_decisions": {
+  "mean": 2.066666666666667,
+  "ci": [
+   0.0,
+   4.066666666666666
+  ]
+ },
+ "symmetric_selection": {
+  "mean": 1.1,
+  "ci": [
+   0.06583333333333338,
+   2.066666666666667
+  ]
+ },
+ "symmetric_decision": {
+  "mean": 9.5,
+  "ci": [
+   6.5,
+   12.668333333333324
+  ]
+ },
+ "interaction": {
+  "mean": 1.9333333333333333,
+  "ci": [
+   -0.06666666666666667,
+   3.9349999999999907
+  ]
+ },
+ "served_models": [
+  "gpt-5.4-mini-2026-03-17"
+ ]
+}

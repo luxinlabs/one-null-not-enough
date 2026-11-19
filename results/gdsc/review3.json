@@ -1,0 +1,143 @@
+{
+ "R1_decomposition": {
+  "all": {
+   "n_H1": 20078,
+   "FR_single": 0.15668891323837036,
+   "n_H1_with_replicate": 6307,
+   "FR_single_with_replicate": 0.14824797843665768,
+   "FR_confirm_with_replicate": 0.0818138576185191,
+   "share_of_FR_replicate_persistent": 0.5518716577540107
+  },
+  "dose_lower": {
+   "n_H1": 11773,
+   "FR_single": 0.2049605028454939,
+   "n_H1_with_replicate": 3632,
+   "FR_single_with_replicate": 0.19438325991189428,
+   "FR_confirm_with_replicate": 0.10297356828193832,
+   "share_of_FR_replicate_persistent": 0.5297450424929179
+  },
+  "dose_matched": {
+   "n_H1": 8305,
+   "FR_single": 0.08826008428657435,
+   "n_H1_with_replicate": 2675,
+   "FR_single_with_replicate": 0.08560747663551402,
+   "FR_confirm_with_replicate": 0.05308411214953271,
+   "share_of_FR_replicate_persistent": 0.6200873362445415
+  },
+  "dose_matched_assay_a": {
+   "n_H1": 5028,
+   "FR_single": 0.05489260143198091,
+   "n_H1_with_replicate": 1506,
+   "FR_single_with_replicate": 0.039176626826029216,
+   "FR_confirm_with_replicate": 0.02390438247011952,
+   "share_of_FR_replicate_persistent": 0.6101694915254238
+  },
+  "dose_matched_assay_s": {
+   "n_H1": 3277,
+   "FR_single": 0.13945682026243517,
+   "n_H1_with_replicate": 1169,
+   "FR_single_with_replicate": 0.1454234388366125,
+   "FR_confirm_with_replicate": 0.09067579127459367,
+   "share_of_FR_replicate_persistent": 0.6235294117647059
+  },
+  "attribution_of_FR_with_replicate": {
+   "n": 935,
+   "replicate_corrected": 0.4481283422459893,
+   "persistent_dose_lower": 0.4,
+   "persistent_dose_matched": 0.1518716577540107
+  }
+ },
+ "R2_matched_frontier": {
+  "confirm_tau03": {
+   "FR": 0.0818138576185191,
+   "CR": 0.7591118188251946,
+   "extra_plates": 0.5833853841349157
+  },
+  "single_plate_FR_at_matched_CR": 0.11343817115182267,
+  "single_plate_tau_at_matched_CR": 0.23230519480519485,
+  "two_plate_mean_FR_at_matched_CR": 0.08087244331694943,
+  "control_gated_FR_at_matched_CR": 0.13354902027684729
+ },
+ "R3_grouped_split": {
+  "cell_line": {
+   "tau": 0.35,
+   "tau_prime": 0.7,
+   "n_test_units": 58142,
+   "n_test_H1": 20042,
+   "FR_single": 0.18745634168246683,
+   "FR_single_dose_matched": 0.10674493830118606,
+   "FR_single_with_replicate": 0.1806028196402528,
+   "FR_confirm_with_replicate": 0.10585804569761789,
+   "CR_single": 0.8667716535433071
+  },
+  "compound": {
+   "tau": 0.35,
+   "tau_prime": 0.65,
+   "n_test_units": 59640,
+   "n_test_H1": 18554,
+   "FR_single": 0.2208688153497898,
+   "FR_single_dose_matched": 0.11532487703857106,
+   "FR_single_with_replicate": 0.21214329083181543,
+   "FR_confirm_with_replicate": 0.12483302975106254,
+   "CR_single": 0.8796183614856642
+  }
+ },
+ "R4_crossed_bootstrap_CI": {
+  "FR_single": [
+   0.12098342340944952,
+   0.1989030440662766
+  ],
+  "FR_single_dose_matched": [
+   0.05423672052211872,
+   0.13995672243246382
+  ],
+  "FR_single_with_replicate": [
+   0.10606720971738996,
+   0.19848907773246793
+  ],
+  "FR_confirm_with_replicate": [
+   0.05015947690778745,
+   0.12155344816158238
+  ]
+ },
+ "R5_dose_rule": {
+  "max1>=max2 (primary)": {
+   "share_H1": 0.41363681641597766,
+   "FR_single": 0.08826008428657435
+  },
+  "max1>=0.5*max2": {
+   "share_H1": 0.5849188166152007,
+   "FR_single": 0.09851839237057221
+  },
+  "max1>=2*max2": {
+   "share_H1": 0.03252315967725869,
+   "FR_single": 0.09494640122511486
+  },
+  "max1 within 1% of max2": {
+   "share_H1": 0.33434605040342663,
+   "FR_single": 0.09206018173692834
+  }
+ },
+ "R6_decision_support": {
+  "rates": {
+   "P_H1_given_null": 0.09104371901358572,
+   "P_H1_given_null_replicate_null": 0.0549800796812749,
+   "P_H1_given_null_replicate_effect": 0.325068870523416,
+   "P_replicate_null_given_null": 0.8736512356421858,
+   "P_replicate_available_given_null": 0.18498486897173394,
+   "n_explore_null": 15531
+  },
+  "bayes_10to1": {
+   "requests": true,
+   "expected_points": 0.9749698476664094,
+   "FR": 0.8365384615384617,
+   "CR": 0.9618732531482587
+  },
+  "bayes_50to1": {
+   "requests": false,
+   "expected_points": 1.1,
+   "FR": 0.0,
+   "CR": 0.0
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "R7_matched_gap": {
+  "point": 0.03151397188673777,
+  "cell_line": {
+   "ci95": [
+    0.02256948827161032,
+    0.043281338168549253
+   ],
+   "share_le_0": 0.0
+  },
+  "crossed": {
+   "ci95": [
+    0.014704526895546865,
+    0.05058113265651348
+   ],
+   "share_le_0": 0.0
+  }
+ },
+ "R8_availability": {
+  "False": {
+   "n": 40732,
+   "share_effective": 0.33808798978689975,
+   "median_zprime": 0.64986385236697,
+   "share_dose_matched": 0.5283315329470687,
+   "n_cell_lines": 960,
+   "n_compounds": 142,
+   "FR_single": 0.16055478904945175,
+   "FR_single_dose_matched": 0.08952042628774423
+  },
+  "True": {
+   "n": 17611,
+   "share_effective": 0.358128442450741,
+   "median_zprime": 0.6251737822765393,
+   "share_dose_matched": 0.5259780818806428,
+   "n_cell_lines": 754,
+   "n_compounds": 141,
+   "FR_single": 0.14824797843665768,
+   "FR_single_dose_matched": 0.08560747663551402
+  }
+ }
+}

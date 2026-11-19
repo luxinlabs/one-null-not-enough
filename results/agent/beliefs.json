@@ -1,0 +1,223 @@
+{
+ "fitted_likelihood_ratio_by_bin": [
+  0.6199074074074074,
+  3.486979166666667,
+  41.84375
+ ],
+ "gpt-5.4-mini-2026-03-17__voi_forced": {
+  "retested_pairs": 180,
+  "null_replicate": {
+   "n": 144,
+   "agent_reject_share": 0.7291666666666666,
+   "bayes_reject_share": 0.5486111111111112,
+   "effective_share": 0.3194444444444444,
+   "agent_reject_share_ci": [
+    0.625829081632653,
+    0.8289719835302541
+   ]
+  },
+  "null_replicate_by_prior": {
+   "0-0.2": {
+    "n": 41,
+    "agent_reject": 0.9512195121951219,
+    "bayes_reject": 1.0,
+    "mean_bayes_posterior": 0.0863883522362708,
+    "effective_share": 0.024390243902439025
+   },
+   "0.2-0.5": {
+    "n": 48,
+    "agent_reject": 0.7291666666666666,
+    "bayes_reject": 0.7916666666666666,
+    "mean_bayes_posterior": 0.17984177542255786,
+    "effective_share": 0.16666666666666666
+   },
+   "0.5-0.8": {
+    "n": 47,
+    "agent_reject": 0.5319148936170213,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.5872637381670827,
+    "effective_share": 0.6808510638297872
+   },
+   "0.8-1": {
+    "n": 8,
+    "agent_reject": 0.75,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.7436475511247722,
+    "effective_share": 0.625
+   }
+  },
+  "rejected_against_bayes_after_null": {
+   "n": 39,
+   "median_prior": 0.798265060240964,
+   "median_bayes_posterior": 0.7103945183485094,
+   "effective_share": 0.6666666666666666,
+   "implied_LR_upper_bound_median": 0.06317918377203569,
+   "fitted_LR": 0.6199074074074074,
+   "implied_overweighting_median": 9.811893259719355
+  },
+  "agreement_with_reading_rule": 0.6222222222222222,
+  "agreement_with_bayes": 0.5833333333333334
+ },
+ "gpt-5.4-mini-2026-03-17__voi": {
+  "retested_pairs": 180,
+  "null_replicate": {
+   "n": 143,
+   "agent_reject_share": 0.8531468531468531,
+   "bayes_reject_share": 0.5454545454545454,
+   "effective_share": 0.3076923076923077,
+   "agent_reject_share_ci": [
+    0.7428571428571429,
+    0.9452054794520548
+   ]
+  },
+  "null_replicate_by_prior": {
+   "0-0.2": {
+    "n": 42,
+    "agent_reject": 0.9523809523809523,
+    "bayes_reject": 1.0,
+    "mean_bayes_posterior": 0.08439160198193175,
+    "effective_share": 0.023809523809523808
+   },
+   "0.2-0.5": {
+    "n": 45,
+    "agent_reject": 0.8444444444444444,
+    "bayes_reject": 0.8,
+    "mean_bayes_posterior": 0.17981478886025606,
+    "effective_share": 0.15555555555555556
+   },
+   "0.5-0.8": {
+    "n": 47,
+    "agent_reject": 0.7446808510638298,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.5875303447454682,
+    "effective_share": 0.6595744680851063
+   },
+   "0.8-1": {
+    "n": 9,
+    "agent_reject": 1.0,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.7653037366617146,
+    "effective_share": 0.5555555555555556
+   }
+  },
+  "rejected_against_bayes_after_null": {
+   "n": 53,
+   "median_prior": 0.7094508301404854,
+   "median_bayes_posterior": 0.602174359190246,
+   "effective_share": 0.6226415094339622,
+   "implied_LR_upper_bound_median": 0.10238523852385235,
+   "fitted_LR": 0.6199074074074074,
+   "implied_overweighting_median": 6.054656084656086
+  },
+  "agreement_with_reading_rule": 0.7,
+  "agreement_with_bayes": 0.55
+ },
+ "gpt-5.4-mini-2026-03-17__calibrated": {
+  "retested_pairs": 180,
+  "null_replicate": {
+   "n": 113,
+   "agent_reject_share": 0.6106194690265486,
+   "bayes_reject_share": 0.11504424778761062,
+   "effective_share": 0.5663716814159292,
+   "agent_reject_share_ci": [
+    0.44954128440366975,
+    0.7610720954777949
+   ]
+  },
+  "null_replicate_by_prior": {
+   "0-0.2": {
+    "n": 4,
+    "agent_reject": 1.0,
+    "bayes_reject": 1.0,
+    "mean_bayes_posterior": 0.10723068815155173,
+    "effective_share": 0.25
+   },
+   "0.2-0.5": {
+    "n": 29,
+    "agent_reject": 0.4482758620689655,
+    "bayes_reject": 0.3103448275862069,
+    "mean_bayes_posterior": 0.2610081722798378,
+    "effective_share": 0.2413793103448276
+   },
+   "0.5-0.8": {
+    "n": 45,
+    "agent_reject": 0.6666666666666666,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.5868921506646329,
+    "effective_share": 0.6888888888888889
+   },
+   "0.8-1": {
+    "n": 35,
+    "agent_reject": 0.6285714285714286,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.8463258672461733,
+    "effective_share": 0.7142857142857143
+   }
+  },
+  "rejected_against_bayes_after_null": {
+   "n": 60,
+   "median_prior": 0.798265060240964,
+   "median_bayes_posterior": 0.7103945183485094,
+   "effective_share": 0.6833333333333333,
+   "implied_LR_upper_bound_median": 0.06317918377203569,
+   "fitted_LR": 0.6199074074074074,
+   "implied_overweighting_median": 9.811893259719355
+  },
+  "agreement_with_reading_rule": 0.49444444444444446,
+  "agreement_with_bayes": 0.5555555555555556
+ },
+ "gpt-5.5__calibrated": {
+  "retested_pairs": 180,
+  "null_replicate": {
+   "n": 126,
+   "agent_reject_share": 0.8095238095238095,
+   "bayes_reject_share": 0.2698412698412698,
+   "effective_share": 0.4444444444444444,
+   "agent_reject_share_ci": [
+    0.7142580287929126,
+    0.8880014925373134
+   ]
+  },
+  "null_replicate_by_prior": {
+   "0-0.2": {
+    "n": 7,
+    "agent_reject": 1.0,
+    "bayes_reject": 1.0,
+    "mean_bayes_posterior": 0.124753485493116,
+    "effective_share": 0.0
+   },
+   "0.2-0.5": {
+    "n": 49,
+    "agent_reject": 0.9387755102040817,
+    "bayes_reject": 0.5510204081632653,
+    "mean_bayes_posterior": 0.22477992558388485,
+    "effective_share": 0.20408163265306123
+   },
+   "0.5-0.8": {
+    "n": 54,
+    "agent_reject": 0.7592592592592593,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.5720652435286069,
+    "effective_share": 0.6666666666666666
+   },
+   "0.8-1": {
+    "n": 16,
+    "agent_reject": 0.5,
+    "bayes_reject": 0.0,
+    "mean_bayes_posterior": 0.7970556237193769,
+    "effective_share": 0.625
+   }
+  },
+  "rejected_against_bayes_after_null": {
+   "n": 69,
+   "median_prior": 0.5325131810193321,
+   "median_bayes_posterior": 0.4138799543394366,
+   "effective_share": 0.5652173913043478,
+   "implied_LR_upper_bound_median": 0.21947194719471952,
+   "fitted_LR": 0.6199074074074074,
+   "implied_overweighting_median": 2.82454051796157
+  },
+  "agreement_with_reading_rule": 0.6222222222222222,
+  "agreement_with_bayes": 0.4666666666666667
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "M5_explore": {
+  "n_units": 25454,
+  "FR_single_all": 0.16449511400651465,
+  "FR_single_dose_matched": 0.09680998613037448,
+  "share_FR_lower_dose": 0.7531824611032532,
+  "with_replicate_single": 0.15165876777251186,
+  "with_replicate_confirm": 0.08175355450236967,
+  "dose_matched_with_replicate_single": 0.09113607990012484,
+  "dose_matched_with_replicate_confirm": 0.05118601747815231,
+  "copula_null_P_alt_rej_given_rej": 0.4757029082472545,
+  "observed_P_alt_rej_given_rej": 0.5390625
+ },
+ "copula_test": {
+  "copula_null_P_alt_rej_given_rej": 0.5210262934998163,
+  "observed_P_alt_rej_given_rej": 0.5518716577540107
+ },
+ "M2_batch": {
+  "pairs": 7239,
+  "share_same_cell_stock": 0.9888106092001657,
+  "share_same_date": 0.0893769857715154,
+  "co_rejection_same_date": 0.7027027027027027,
+  "co_rejection_different_date": 0.5389082462253194,
+  "n_rej_same_date": 74,
+  "n_rej_different_date": 861
+ },
+ "assay": {
+  "a": {
+   "n_H1": 10676,
+   "FR_single": 0.12045710003746722
+  },
+  "s": {
+   "n_H1": 9402,
+   "FR_single": 0.19783024888321635
+  }
+ },
+ "M3": {
+  "P_H1_given_single_null": 0.08991397296293119,
+  "rules_expected_points_10to1": {
+   "single_plate": 0.999139729629312,
+   "control_gated": 0.9828771899739919,
+   "confirm_or_reject": 0.9749698476664094,
+   "confirm_or_abstain": 1.049421818285747,
+   "always_abstain": 1.1
+  },
+  "rules_expected_points_50to1": {
+   "single_plate": 4.595698648146559,
+   "control_gated": 3.669607305153047,
+   "confirm_or_reject": 3.983629712195261,
+   "confirm_or_abstain": 1.530430135185344,
+   "always_abstain": 1.1
+  }
+ }
+}

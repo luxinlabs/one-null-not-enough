@@ -1,0 +1,87 @@
+{
+ "gpt-5.4-mini-2026-03-17__calibrated (retested pairs)": {
+  "deviations_per_campaign": 2.6666666666666665,
+  "realized_excess_points_per_campaign": 10.2,
+  "kinds": {
+   "REJECT where ABSTAIN optimal": 42,
+   "REJECT where ACCEPT optimal": 18,
+   "ACCEPT where ABSTAIN optimal": 10,
+   "ABSTAIN where ACCEPT optimal": 6,
+   "ABSTAIN where REJECT optimal": 4
+  }
+ },
+ "gpt-5.4-mini-2026-03-17__calibrated": {
+  "campaigns": 30,
+  "unretested_pairs": 540,
+  "share_not_loss_minimizing": 0.020370370370370372,
+  "per_campaign": 0.36666666666666664,
+  "expected_excess_points_per_campaign": 0.3206666666666668,
+  "kinds": {
+   "ABSTAIN where REJECT optimal": 6,
+   "REJECT where ABSTAIN optimal": 3,
+   "REJECT where ACCEPT optimal": 1,
+   "ACCEPT where ABSTAIN optimal": 1
+  }
+ },
+ "gpt-5.4-mini-2026-03-17__voi (retested pairs)": {
+  "deviations_per_campaign": 2.7,
+  "realized_excess_points_per_campaign": 9.2,
+  "kinds": {
+   "REJECT where ABSTAIN optimal": 52,
+   "ACCEPT where ABSTAIN optimal": 19,
+   "ABSTAIN where REJECT optimal": 9,
+   "REJECT where ACCEPT optimal": 1
+  }
+ },
+ "gpt-5.4-mini-2026-03-17__voi": {
+  "campaigns": 30,
+  "unretested_pairs": 540,
+  "share_not_loss_minimizing": 0.007407407407407408,
+  "per_campaign": 0.13333333333333333,
+  "expected_excess_points_per_campaign": 0.939,
+  "kinds": {
+   "REJECT where ACCEPT optimal": 3,
+   "REJECT where ABSTAIN optimal": 1
+  }
+ },
+ "gpt-5.4-mini-2026-03-17__voi_forced (retested pairs)": {
+  "deviations_per_campaign": 2.5,
+  "realized_excess_points_per_campaign": 8.333333333333334,
+  "kinds": {
+   "REJECT where ABSTAIN optimal": 40,
+   "ACCEPT where ABSTAIN optimal": 20,
+   "ABSTAIN where REJECT optimal": 13,
+   "ABSTAIN where ACCEPT optimal": 2
+  }
+ },
+ "gpt-5.4-mini-2026-03-17__voi_forced": {
+  "campaigns": 30,
+  "unretested_pairs": 540,
+  "share_not_loss_minimizing": 0.007407407407407408,
+  "per_campaign": 0.13333333333333333,
+  "expected_excess_points_per_campaign": 0.26666666666666666,
+  "kinds": {
+   "REJECT where ABSTAIN optimal": 3,
+   "ABSTAIN where REJECT optimal": 1
+  }
+ },
+ "gpt-5.5__calibrated (retested pairs)": {
+  "deviations_per_campaign": 3.2,
+  "realized_excess_points_per_campaign": 9.733333333333333,
+  "kinds": {
+   "REJECT where ABSTAIN optimal": 66,
+   "ACCEPT where ABSTAIN optimal": 20,
+   "ABSTAIN where ACCEPT optimal": 6,
+   "REJECT where ACCEPT optimal": 3,
+   "ABSTAIN where REJECT optimal": 1
+  }
+ },
+ "gpt-5.5__calibrated": {
+  "campaigns": 30,
+  "unretested_pairs": 540,
+  "share_not_loss_minimizing": 0.0,
+  "per_campaign": 0.0,
+  "expected_excess_points_per_campaign": 0.0,
+  "kinds": {}
+ }
+}

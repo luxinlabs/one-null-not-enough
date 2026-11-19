@@ -1,0 +1,135 @@
+{
+ "gpt-5.4-mini-2026-03-17__voi_forced": {
+  "campaigns": 30,
+  "points": 26.266666666666666,
+  "points_ci": [
+   21.333333333333332,
+   31.8
+  ],
+  "unretested_deviation_share": 0.007407407407407408,
+  "retested_deviations_per_campaign": 2.5,
+  "retested_excess_points_per_campaign": 8.333333333333334,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.5319148936170213
+  },
+  "usd": 0.209934,
+  "served_models": [
+   "gpt-5.4-mini-2026-03-17"
+  ]
+ },
+ "gpt-5.4-mini-2026-03-17__voi_forced__high": {
+  "campaigns": 30,
+  "points": 27.733333333333334,
+  "points_ci": [
+   22.6,
+   32.86666666666667
+  ],
+  "unretested_deviation_share": 0.03333333333333333,
+  "retested_deviations_per_campaign": 2.2666666666666666,
+  "retested_excess_points_per_campaign": 9.133333333333333,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.6808510638297872
+  },
+  "usd": 1.6075739999999998,
+  "served_models": [
+   "gpt-5.4-mini-2026-03-17"
+  ]
+ },
+ "gpt-5.4-mini-2026-03-17__forced_post": {
+  "campaigns": 30,
+  "points": 18.2,
+  "points_ci": [
+   14.798333333333334,
+   21.933333333333334
+  ],
+  "unretested_deviation_share": 0.003703703703703704,
+  "retested_deviations_per_campaign": 0.06666666666666667,
+  "retested_excess_points_per_campaign": -0.13333333333333333,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.0
+  },
+  "usd": 0.137583,
+  "served_models": [
+   "gpt-5.4-mini-2026-03-17"
+  ]
+ },
+ "gpt-5.4-mini-2026-03-17__forced_post__high": {
+  "campaigns": 30,
+  "points": 17.733333333333334,
+  "points_ci": [
+   14.398333333333333,
+   21.333333333333332
+  ],
+  "unretested_deviation_share": 0.0,
+  "retested_deviations_per_campaign": 0.0,
+  "retested_excess_points_per_campaign": 0.0,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.0
+  },
+  "usd": 0.212139,
+  "served_models": [
+   "gpt-5.4-mini-2026-03-17"
+  ]
+ },
+ "gpt-5.5__forced_post": {
+  "campaigns": 30,
+  "points": 17.733333333333334,
+  "points_ci": [
+   14.6,
+   21.333333333333332
+  ],
+  "unretested_deviation_share": 0.0,
+  "retested_deviations_per_campaign": 0.0,
+  "retested_excess_points_per_campaign": 0.0,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.0
+  },
+  "usd": 0.76242,
+  "served_models": [
+   "gpt-5.5-2026-04-23"
+  ]
+ },
+ "gpt-5.4-mini-2026-03-17__forced_lr": {
+  "campaigns": 30,
+  "points": 18.266666666666666,
+  "points_ci": [
+   14.865,
+   21.866666666666667
+  ],
+  "unretested_deviation_share": 0.001851851851851852,
+  "retested_deviations_per_campaign": 0.23333333333333334,
+  "retested_excess_points_per_campaign": 0.26666666666666666,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.0
+  },
+  "usd": 0.159246,
+  "served_models": [
+   "gpt-5.4-mini-2026-03-17"
+  ]
+ },
+ "gpt-5.5__forced_lr": {
+  "campaigns": 30,
+  "points": 17.733333333333334,
+  "points_ci": [
+   14.331666666666667,
+   21.4
+  ],
+  "unretested_deviation_share": 0.0,
+  "retested_deviations_per_campaign": 0.0,
+  "retested_excess_points_per_campaign": 0.0,
+  "null_replicate_prior_05_08": {
+   "n": 47,
+   "reject_share": 0.0
+  },
+  "usd": 0.85368,
+  "served_models": [
+   "gpt-5.5-2026-04-23"
+  ]
+ }
+}
